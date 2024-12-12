@@ -74,19 +74,17 @@ To enable SSH for the root account, follow these steps:
    ```bash
    sudo nano /etc/ssh/sshd_config
    ```
-Find the line containing:
+- Find the line containing:
 ```bash
 #PermitRootLogin prohibit-password
 ```
-Uncomment the line and change it to:
+- Uncomment the line and change it to:
 ```bash
 PermitRootLogin yes
 ```
-Save and exit the file (Ctrl+O, Enter, Ctrl+X).
-
-Restart the SSH Service
-Restart the SSH service to apply the changes:
-
+- Save and exit the file (Ctrl+O, Enter, Ctrl+X).
+- Restart the SSH Service
+  - Restart the SSH service to apply the changes:
 ```bash
 sudo systemctl restart ssh
 ```
