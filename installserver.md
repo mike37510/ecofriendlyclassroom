@@ -125,4 +125,4 @@ ip addr show
   - Gateway: 192.168.1.254
   - DNS Server: 8.8.8.8
 
-[Go to Install Docker and Portainer](installdockerandportianer.md)
+[Go to Install Docker and Portainer](installdockerandportainer.md)
