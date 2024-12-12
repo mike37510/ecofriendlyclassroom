@@ -27,7 +27,7 @@ With this approach, we propose an economical, ecological, and efficient alternat
 1. **Raspberry Pi for clients:**
    - Model: Raspberry Pi 500 with 8 GB of RAM.
    - Accessories: MicroSD cards (32 GB), power supply, etc. All included in the Raspberry Pi 500 pack.
-2. **Raspberry Pi for servers:**
+2. **[Raspberry Pi for servers:](installserver.md)**
    - Model: Raspberry Pi 500 with 8 GB of RAM.
    - External USB hard drive for data storage (for a local server).
 3. **Network Infrastructure:**
