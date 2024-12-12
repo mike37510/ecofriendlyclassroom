@@ -95,4 +95,6 @@ With this approach, we propose an economical, ecological, and efficient alternat
 
 ---
 
+- [Raspberry Pi 500](https://www.raspberrypi.com/products/raspberry-pi-500/)
+- [Raspberry Pi Monitor](https://www.raspberrypi.com/products/raspberry-pi-monitor/)
 
