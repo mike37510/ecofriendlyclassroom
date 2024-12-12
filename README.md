@@ -91,7 +91,6 @@ With this approach, we propose an economical, ecological, and efficient alternat
 - **Accessories (power strips + monitors):** €120 per client kit.
 - **Network infrastructure:** €0 (recovered).
 - **Transport:** €100.
-- **Total estimated cost for a basic POC setup:** 5 clients + 1 server, i.e., €1,500.
 
 ---
  Go to (installdockerandportainer.md)
