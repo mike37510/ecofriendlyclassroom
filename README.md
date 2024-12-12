@@ -99,4 +99,5 @@ With this approach, we propose an economical, ecological, and efficient alternat
 - [Raspberry Pi Monitor](https://www.raspberrypi.com/products/raspberry-pi-monitor/)
 
 
-!(URL_or_Path "./pi500.jpg")
+![Raspberry Pi 500](pi500.jpeg "Raspberry Pi 500")
+
