@@ -94,7 +94,7 @@ With this approach, we propose an economical, ecological, and efficient alternat
 - **Total estimated cost for a basic POC setup:** 5 clients + 1 server, i.e., €1,500.
 
 ---
-
+ Go to (installdockerandportainer.md)
 
 ![Raspberry Pi 500](pi500.jpeg "Raspberry Pi 500")  
 [Learn more about Raspberry Pi 500](https://www.raspberrypi.com/products/raspberry-pi-500/)
