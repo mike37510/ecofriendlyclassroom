@@ -63,5 +63,31 @@ sudo nano /etc/hostname
 - Replace the Current Hostname.
   - Save the file and exit (Ctrl+O, Enter, Ctrl+X).
 
+---
 
+## Step 6: Enable SSH for the Root Account
+
+To enable SSH for the root account, follow these steps:
+
+- Edit the SSH Configuration File
+  - Open the SSH configuration file:
+   ```bash
+   sudo nano /etc/ssh/sshd_config
+   ```
+Find the line containing:
+```bash
+#PermitRootLogin prohibit-password
+```
+Uncomment the line and change it to:
+```bash
+PermitRootLogin yes
+```
+Save and exit the file (Ctrl+O, Enter, Ctrl+X).
+
+Restart the SSH Service
+Restart the SSH service to apply the changes:
+
+```bash
+sudo systemctl restart ssh
+```
 
