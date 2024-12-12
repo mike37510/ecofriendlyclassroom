@@ -88,4 +88,39 @@ PermitRootLogin yes
 ```bash
 sudo systemctl restart ssh
 ```
+## Step 7: Set a Static IP Address Using `nmtui`
 
+To configure a static IP address for your Raspberry Pi, follow these steps:
+
+---
+
+### Open the `nmtui` Tool
+- Launch the `nmtui` network configuration tool:
+   ```bash
+   sudo nmtui
+   ```
+- Select Edit a connection using the arrow keys and press Enter.
+- Configure the Static IP
+- Choose your network connection (wlan0) from the list and press Enter.
+- Navigate to the IPv4 Configuration section.
+- Change the Method from Automatic to Manual.
+- Select Show to add your static IP configuration.
+- Enter the following details:
+  - Address: 192.168.1.1/24
+  - Gateway: 192.168.1.254
+  - DNS Server: 8.8.8.8
+- Save your configuration by selecting OK.
+- Apply the Changes
+- Go back to the main nmtui menu and select Activate a connection.
+- Deactivate your current connection and reactivate it to apply the new settings.
+- Verify the Configuration
+- Exit nmtui and verify the network settings:
+
+```bash
+ip addr show
+```
+- Check if the static IP, gateway, and DNS are correctly applied:
+
+  - IP Address: 192.168.1.1
+  - Gateway: 192.168.1.254
+  - DNS Server: 8.8.8.8
