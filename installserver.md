@@ -54,14 +54,14 @@ sudo apt-get upgrade -y
 
 If you didn't set the hostname during the Raspberry Pi Imager configuration, you can do it now:
 
-# Edit the Hostname File
-Open the hostname file with the following command:
+- Edit the Hostname File
+  - Open the hostname file with the following command:
 
 ```bash
 sudo nano /etc/hostname
 ```
-Replace the Current Hostname.
-Save the file and exit (Ctrl+O, Enter, Ctrl+X).
+- Replace the Current Hostname.
+  - Save the file and exit (Ctrl+O, Enter, Ctrl+X).
 
 
 
