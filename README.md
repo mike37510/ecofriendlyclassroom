@@ -96,11 +96,8 @@ With this approach, we propose an economical, ecological, and efficient alternat
 ---
 
 
-![Raspberry Pi 500](pi500.jpeg "Raspberry Pi 500")
-[Learn more about Raspberry Pi 500]([https://www.raspberrypi.com/products/raspberry-pi-500/](https://www.raspberrypi.com/products/raspberry-pi-500/)
+![Raspberry Pi 500](pi500.jpeg "Raspberry Pi 500")  
+[Learn more about Raspberry Pi 500](https://www.raspberrypi.com/products/raspberry-pi-500/)
 
-
-
-
-![Raspberry Pi Monitor](pi500monitor.jpeg "Raspberry Pi 500")
-[Learn more about Raspberry Pi 500 Monitor]([https://www.raspberrypi.com/products/raspberry-pi-500/]([https://www.raspberrypi.com/products/raspberry-pi-500/](https://www.raspberrypi.com/products/raspberry-pi-monitor/)
+![Raspberry Pi Monitor](pi500monitor.jpeg "Raspberry Pi Monitor")  
+[Learn more about Raspberry Pi Monitor](https://www.raspberrypi.com/products/raspberry-pi-monitor/)
