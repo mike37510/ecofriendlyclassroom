@@ -60,12 +60,7 @@ Open the hostname file with the following command:
 ```bash
 sudo nano /etc/hostname
 ```
-# Replace the Current Hostname
-Replace the current hostname with:
-
-plaintext
-Copier le code
-domain.local
+Replace the Current Hostname.
 Save the file and exit (Ctrl+O, Enter, Ctrl+X).
 
 
