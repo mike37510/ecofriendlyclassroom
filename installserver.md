@@ -49,7 +49,24 @@ Run the following commands to ensure the system is up to date:
 ```bash
 sudo apt-get update
 sudo apt-get upgrade -y
+```
+## Step 5: Set Hostname Manually
 
+If you didn't set the hostname during the Raspberry Pi Imager configuration, you can do it now:
+
+# Edit the Hostname File
+Open the hostname file with the following command:
+
+```bash
+sudo nano /etc/hostname
+```
+# Replace the Current Hostname
+Replace the current hostname with:
+
+plaintext
+Copier le code
+domain.local
+Save the file and exit (Ctrl+O, Enter, Ctrl+X).
 
 
 
