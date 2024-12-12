@@ -43,7 +43,7 @@ With this approach, we propose an economical, ecological, and efficient alternat
 ### Software Components
 1. **Operating Systems:**
    - Raspberry Pi OS for clients.
-   - Raspberry Pi OS Lite or Ubuntu Server for the server.
+   - Raspberry Pi OS Lite for the server.
 2. **Server Software:**
    - Web server: Nginx or Apache to host mobile classroom documentation.
    - File server: NFS or Samba.
