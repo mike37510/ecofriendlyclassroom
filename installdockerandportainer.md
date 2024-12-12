@@ -36,17 +36,16 @@ docker volume create portainer_data
 docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v portainer_data:/data portainer/portainer-ce
-Access the Portainer Web Interface
-Open a browser and navigate to:
+```
+---
 
-arduino
-Copier le code
-https://<Your-Raspberry-Pi-IP>:9443
-Follow the on-screen instructions to:
+## Access the Portainer Web Interface
+- Open a browser and navigate to:
+  - https://<Your-Raspberry-Pi-IP>:9443
+- Follow the on-screen instructions to:
+  - Set up an admin user.
+  - Start managing your containers via the Portainer dashboard.
 
-Set up an admin user.
-Start managing your containers via the Portainer dashboard.
-Summary
 Docker provides a containerized environment for running applications.
 Portainer adds a web interface for managing Docker containers.
 Together, they enable efficient application deployment and management on your Raspberry Pi.
