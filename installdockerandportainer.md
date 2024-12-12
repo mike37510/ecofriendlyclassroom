@@ -41,7 +41,7 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always \
 
 ## Access the Portainer Web Interface
 - Open a browser and navigate to:
-  - https://<Your-Raspberry-Pi-IP>:9443
+  - https://Your-Raspberry-Pi-IP:9443
 - Follow the on-screen instructions to:
   - Set up an admin user.
   - Start managing your containers via the Portainer dashboard.
